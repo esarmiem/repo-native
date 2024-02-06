@@ -1,0 +1,98 @@
+export default [
+  {
+    id: "freeCodeCamp",
+    fullName: "freeCodeCamp/freeCodeCamp",
+    description:
+      "FreeCodeCamp.org's open-source codebase and curriculum.",
+    language: "JavaScript",
+    forksCount: 25158,
+    stargazersCount: 319000,
+    ratingAverage: 8.8,
+    reviewCount: 650,
+    ownerAvatarUrl: "https://avatars.githubusercontent.com/u/9892522?v=4",
+  },
+  {
+    id: "tensorflow",
+    fullName: "tensorflow/tensorflow",
+    description: "An open source machine learning framework",
+    language: "Python",
+    forksCount: 156000,
+    stargazersCount: 148000,
+    ratingAverage: 8.9,
+    reviewCount: 550,
+    ownerAvatarUrl: "https://avatars.githubusercontent.com/u/15658638?v=4",
+  },
+  {
+    id: "vue",
+    fullName: "vuejs/vue",
+    description:
+      "Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
+    language: "JavaScript",
+    forksCount: 21000,
+    stargazersCount: 180000,
+    ratingAverage: 9.2,
+    reviewCount: 120,
+    ownerAvatarUrl: "https://avatars.githubusercontent.com/u/6128107?v=4",
+  },
+  {
+    id: "deno",
+    fullName: "denoland/deno",
+    description:
+      "A secure JavaScript and TypeScript runtime",
+    language: "TypeScript",
+    forksCount: 8200,
+    stargazersCount: 85000,
+    ratingAverage: 8.7,
+    reviewCount: 90,
+    ownerAvatarUrl: "https://avatars.githubusercontent.com/u/42558014?v=4",
+  },
+  {
+    id: "angular",
+    fullName: "angular/angular",
+    description:
+      "One framework. Mobile & desktop.",
+    language: "TypeScript",
+    forksCount: 16000,
+    stargazersCount: 75000,
+    ratingAverage: 8.5,
+    reviewCount: 80,
+    ownerAvatarUrl: "https://avatars.githubusercontent.com/u/139426?v=4",
+  },
+  {
+    id: "node",
+    fullName: "nodejs/node",
+    description:
+      "Node.js JavaScript runtime",
+    language: "JavaScript",
+    forksCount: 21800,
+    stargazersCount: 90000,
+    ratingAverage: 8.6,
+    reviewCount: 100,
+    ownerAvatarUrl: "https://avatars.githubusercontent.com/u/9950313?v=4",
+  },
+  {
+    id: "gatsby",
+    fullName: "gatsbyjs/gatsby",
+    description:
+      "Build blazing fast, modern apps and websites with React",
+    language: "JavaScript",
+    forksCount: 11500,
+    stargazersCount: 46000,
+    ratingAverage: 8.9,
+    reviewCount: 70,
+    ownerAvatarUrl: "https://avatars.githubusercontent.com/u/12551863?v=4",
+  },
+  {
+    id: "laravel",
+    fullName: "laravel/laravel",
+    description:
+      "A PHP framework for web artisans",
+    language: "PHP",
+    forksCount: 7030,
+    stargazersCount: 64000,
+    ratingAverage: 8.7,
+    reviewCount: 75,
+    ownerAvatarUrl: "https://avatars.githubusercontent.com/u/958072?v=4",
+  },
+];
+
