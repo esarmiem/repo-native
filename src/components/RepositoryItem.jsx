@@ -4,13 +4,13 @@ const RepositoryItem = (props) => {
   return (
     <View style={styles.container} key={props.id}>
     <Text style={styles.Strong}> id: {props.id}</Text>
-    <Text>fullName: {props.fullName}</Text>
-    <Text>Description: {props.description}</Text>
-    <Text>Language: {props.language}</Text>
-    <Text>Stars: {props.stargazersCount}</Text>
-    <Text>Forks: {props.forksCount}</Text>
-    <Text>Rating: {props.ratingAverage}</Text>
-    <Text>Review: {props.reviewCount}</Text>
+    <Text style={styles.textNormal} >fullName: {props.fullName}</Text>
+    <Text style={styles.textNormal} >Description: {props.description}</Text>
+    <Text style={styles.textNormal} >Language: {props.language}</Text>
+    <Text style={styles.textNormal} >Stars: {props.stargazersCount}</Text>
+    <Text style={styles.textNormal} >Forks: {props.forksCount}</Text>
+    <Text style={styles.textNormal} >Rating: {props.ratingAverage}</Text>
+    <Text style={styles.textNormal} >Review: {props.reviewCount}</Text>
     <Image style={styles.image} source={{ uri: props.ownerAvatarUrl }} />
   </View>
   )
@@ -18,17 +18,27 @@ const RepositoryItem = (props) => {
 
 const styles = StyleSheet.create({
   container: {
-    padding: 10
+    padding: 20,
+    backgroundColor: "#F7F4EA",
+    margin: 12,
+    borderRadius: 10
   },
   Strong: {
     fontWeight: "bold",
+    fontFamily: "monospace",
     marginBottom: 5,
-    fontSize: 16,
+    fontSize: 20,
     color: "#09f"
+  },
+  textNormal: {
+    fontFamily: "monospace",
+    marginBottom: 2,
+    fontSize: 16
   },
   image: {
     width: 40,
-    height: 40
+    height: 40,
+    marginTop: 5
   }
 })
 
